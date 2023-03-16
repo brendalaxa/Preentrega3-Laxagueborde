@@ -1,0 +1,27 @@
+.caja-imagen {
+  position: relative;
+  margin-top: 2rem;
+  text-align: center;
+}
+.caja-imagen img {
+  animation: from-right 1.5s ease;
+}
+@keyframes from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.caja-about {
+  flex: 1;
+}
+.caja-about__titulo {
+  color: $primary-color;
+}
+.caja-about--texto {
+  font-size: 1.2rem;
+}

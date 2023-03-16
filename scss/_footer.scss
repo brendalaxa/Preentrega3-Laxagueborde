@@ -1,0 +1,24 @@
+footer {
+  background-color: $primary-color;
+  text-align: center;
+
+  grid-area: footer;
+
+  padding-bottom: 8px;
+
+  color: #c0c0c0;
+
+  font-size: 10px;
+}
+
+.footer-sm {
+  background-color: $primary-color;
+}
+
+.footer-bottom__copyright {
+  color: white;
+}
+
+.redes-footer {
+  color: white;
+}
