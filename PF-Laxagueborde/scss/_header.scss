@@ -1,0 +1,16 @@
+header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  grid-area: header;
+}
+
+.header__upper {
+  background-color: white;
+}
+
+.header__items {
+  margin-top: 10px;
+  font-size: 0.7rem;
+}
